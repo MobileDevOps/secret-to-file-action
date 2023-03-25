@@ -1,0 +1,19 @@
+on: [push]
+
+jobs:
+  main:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Secret to File
+        uses: ./
+        with:
+          base64-encoded-secret: ${{ secrets.FILE_CONTENT }}
+          filename: "hello-world.sh"
+          is-executable: true
+          working-directory: "./a/b/c"
+      - run: stat -f ./a/b/c/hello-world.sh
+      - run: ./a/b/c/hello-world.sh   
