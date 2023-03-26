@@ -1,4 +1,22 @@
 {
+  "name": "secret-to-file-action",
+  "version": "1.0.0",
+  "description": "This action allows storing the content of a file as a base64 secret and writing it to a file during the build process.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MobileDevOps/secret-to-file-action.git"
+  },
+  "keywords": ["secret", "base64", "action", "github", "actions", "workflow"],
+  "author": "Sebastian Messingfeld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MobileDevOps/secret-to-file-action/issues"
+  },
+  "homepage": "https://github.com/MobileDevOps/secret-to-file-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^5.1.1"
