@@ -1,0 +1,60 @@
+.github/CODE_OF_CONDUCT.md
+  s_3b456f7b38fe8b::t_a473fb23d8d1c7 17-21,25-29,31
+.github/CONTRIBUTING.md
+  s_3b456f7b38fe8b::t_a473fb23d8d1c7 4,10,12,16
+src/main.ts
+  s_3b456f7b38fe8b::t_bd3ddb82369096 1-33
+eslint.config.js
+  s_3b456f7b38fe8b::t_c06ad732f17eb1 1-8
+package.json
+  s_3b456f7b38fe8b::t_5349ac4d008151 3,5-6,9-13,34-44
+  s_3b456f7b38fe8b::t_5a20c14b03aed6 8
+  s_3b456f7b38fe8b::t_a473fb23d8d1c7 19-26
+tsconfig.json
+  s_3b456f7b38fe8b::t_1fadc172d378ed 1-15
+.github/workflows/ci.yml
+  s_3b456f7b38fe8b::t_1b94de46a56b2f 1-51
+.prettierignore
+  s_3b456f7b38fe8b::t_83e1760bd506cb 1-2
+src/post.ts
+  s_3b456f7b38fe8b::t_832fcf8f7e2c05 1-32
+action.yml
+  s_3b456f7b38fe8b::t_71648251fb672a 5-6,15-17,22-24,26-28
+dist/post.js
+  s_3b456f7b38fe8b::t_a473fb23d8d1c7 2-19264
+  s_3b456f7b38fe8b::t_d64bb589f0a116 1
+.prettierrc
+  s_3b456f7b38fe8b::t_3d3fcbd322a773 1
+tests/secret-file.test.ts
+  s_3b456f7b38fe8b::t_a2912f721de595 1-84
+README.md
+  s_3b456f7b38fe8b::t_1511b0927ec0bf 3,5,7,12,18,38-41,48-49,51-53,60-80
+  s_3b456f7b38fe8b::t_a473fb23d8d1c7 54-59
+src/secret-file.ts
+  s_3b456f7b38fe8b::t_a473fb23d8d1c7 19-20
+  s_3b456f7b38fe8b::t_bbcda61a414c76 1-18,21-55
+.github/ISSUE_TEMPLATE.md
+  s_3b456f7b38fe8b::t_a473fb23d8d1c7 22
+  s_3b456f7b38fe8b::t_883814c0307a49 13
+dist/main.js
+  s_3b456f7b38fe8b::t_d64bb589f0a116 1
+  s_3b456f7b38fe8b::t_a473fb23d8d1c7 2-19325
+package-lock.json
+  s_3b456f7b38fe8b::t_67f3e2d658ce6c 3,8-10,12-22,26-29,31-32,35-39,41,45-48,50-51,54-549,551-556,559-564,566-569,572-577,579-582,585-590,592-619,622-630,632-637,639-640,642-643,646-651,653,655-656,659-664,666-671,674-1113,1115-1116,1119-1145,1147,1150-1177,1179-1187,1189-1201,1203-1211,1214-1219,1221-1223,1226-1230,1233-1244,1246-1251,1254-1276,1278-1293,1296-1308,1310-1326,1328-1335,1338-1346,1348-1358,1361-1375,1377-1382,1384-1398,1401-3599
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.9",
+  "base_commit_sha": "c74f5e2a0f36df0940907113df9e2e5668801971",
+  "prompts": {},
+  "sessions": {
+    "s_3b456f7b38fe8b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0898ccac-8a9e-4ef6-91db-e8a8634fc3d0",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Sebastian Messingfeld <sebastian@messeb.com>"
+    }
+  }
+}
