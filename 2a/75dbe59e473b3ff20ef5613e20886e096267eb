@@ -1,0 +1,19 @@
+.gitignore
+  s_3b456f7b38fe8b::t_e8bee16ba7c21b 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.9",
+  "base_commit_sha": "2a75dbe59e473b3ff20ef5613e20886e096267eb",
+  "prompts": {},
+  "sessions": {
+    "s_3b456f7b38fe8b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0898ccac-8a9e-4ef6-91db-e8a8634fc3d0",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Sebastian Messingfeld <sebastian@messeb.com>"
+    }
+  }
+}
